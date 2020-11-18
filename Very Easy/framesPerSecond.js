@@ -5,6 +5,6 @@ With given minutes find the number of frames shown per minute based on frames pe
 
 */
 
-const framesPerSecond = (minutes, frames) =>(minutes*frames );
+const framesPerSecond = (minutes, frames) =>(minutes*frames*60 );
 
-console.log(`At 30fps how many frames number of frames shown in 10 mins: ${framesPerSecond(10,30)} per second` );
+console.log(`At 30fps how many frames number of frames shown in 10 mins: ${framesPerSecond(10,30)}` );
